@@ -1,3 +1,5 @@
+#ConfigMgr OSD Prestart Command Script to detect PeerCache avalable sources and enable PeerCache in OSD if yes
+
 [void] [Reflection.Assembly]::LoadWithPartialName("System.Diagnostics")
 [void] [Reflection.Assembly]::LoadFile("$PSSCriptRoot\Microsoft.ConfigurationManagement.Messaging.dll")
 try  {
